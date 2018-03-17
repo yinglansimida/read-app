@@ -1,0 +1,76 @@
+.plan_box{width: 100%;background: #f8f9f9;}
+
+/*短片计划头部 */
+.plan_box .plan_header{width: 100%;height:4rem;/*background: url(../../common/images/plan_header.png) no-repeat;background-size: 100% 100%;*/}
+.plan_header img{width: 100%;height: 100%;}
+
+
+
+/*短片计划导航栏*/
+.plan_nav{width: 100%;height: 1rem;background:#51c4bf;position: relative;}
+.right_arrow::before{width: 0.5rem;height: 0.5rem;display:inline-block;content: ">";transform:scaleY(1.5);color: #147c78;position: absolute;left: 18% ; top:0.3rem;font-size: 0.32rem;}
+.plan_nav .plan_nav_cont{width: 100%;height: 100%;display: flex;}
+.plan_nav section a{width:100%;height:100%;display: block;text-align: center;line-height: 1rem;font-size:0.32rem;font-weight: bold;}
+.plan_nav section{flex-basis:40%;/*background: yellow;*/}
+.plan_nav section:first-of-type{flex-basis:20%;/*background: pink;*/}
+.plan_nav section:first-of-type a{width: 100%;height: 100%;color: #fff;}
+.plan_nav section:first-of-type a.active{color:#147c78; }
+
+.plan_nav section:nth-of-type(2){flex-basis:35%;/*background: yellow;*/}
+.plan_list{display:block;width: 100%;height: 100%;/*background: green;*/color:#fff;line-height:1rem;font-size:0.32rem;font-weight:bold;text-align:center;}
+.plan_nav section:last-of-type{flex-basis:45%}
+.plan_nav section:last-of-type .plan_film{/*background: red;*/width: 100%;height: 100%;position: relative;}
+.plan_film_img{display: inline-block;width:1.2rem;height: 1.2rem;border-radius: 50%;background:#51c4bf;position: absolute;left: 0px;top:-0.5rem;margin-left:0.1rem; }
+.plan_film .plan_film_img img{width:0.8rem;height:0.8rem;position: absolute;left: 0.2rem;top:45%;}
+.plan_film .plan_film_title{display: block;width: 55%;height: 100%;float: right;/*background: yellow*/
+}
+
+/*内容区域*/
+.plan_wrap{width: 100%;height: 100%;}
+
+/*底部区域*/
+.plan_footer{width: 100%;height:0.8rem;background:#444;}
+.plan_footer a{display: block;width: 50%;height: 100%;margin: 0 auto;}
+.plan_footer a img{padding-top: 0.2rem;margin:  auto;}
+.plan_index_box{width: 100%;}
+.plan_index_box h3{width: 100%;height: 1rem;line-height: 1rem;font-size:0.36rem;color:#60aaa7;font-weight: bold;}
+.plan_index_box .btn{width: 80%;height: 0.8rem;line-height: 0.8rem;margin: 0.06rem auto;border-radius: 0.5rem;text-align: center;display: block;background:#51c4bf;color: #fff;font-size:0.32rem;font-weight: bold; }
+.plan_index_box p{padding-bottom: 0.3rem;font-size:0.24rem;color: #333;line-height:0.44rem;}
+.plan_index_box p a{display: inline-block;color: #51c4bf;}
+
+
+
+/*短片计划介绍模块*/
+.plan_index_intro{width: 100%;background: #fff;}
+.plan_index_intro section{width: 100%;padding: 0.4rem 3.7% 0;/*background: pink;*/}
+.plan_index_intro section div{width: 100%;}
+.plan_index_intro section div h4{width: 100%;font-size: 0.24rem;font-weight: bold;color:#333;height:0.7rem;line-height: 0.7rem;padding-top: 0.1rem;}
+.plan_index_intro .btn_wrap{width: 100%;height:2rem;/*background: pink;*/}
+
+/*入选影片模块*/
+.plan_index_selected{width: 100%;padding: 0.4rem 3.7%;}
+.plan_index_selected_content{width: 100%;height:11.5rem;padding: 4%;background: #fff;border:1px solid #eee;}
+.plan_index_selected_content a{display: block;width: 100%;}
+.plan_index_selected_content a:first-of-type{height:3rem;}
+.plan_index_selected_content a:first-of-type img{width: 100%;height: 100%;}
+.plan_index_selected_content .getDetail{height:1rem;/*background: pink;*/padding-top: 0.2rem;text-align: center;}
+.plan_index_selected_content h5{width: 100%;height:1rem;line-height: 1rem;font-weight: bold;font-size: 0.30rem;color: #333;}
+.plan_index_selected_text{width: 100%;}
+
+
+/*导演申请模块*/
+.plan_index_director{width: 100%;height:7rem;padding: 0.4rem 3.7%;/*background: pink;*/}
+.plan_index_director_method{width: 100%;height:4rem;padding: 6%;border:1px solid #eee;background: #fff;}
+.plan_index_director_method_list{width: 100%;line-height: 0.44rem;/*list-style-type:demical;*/list-style-type:none;counter-reset:sectioncounter;letter-spacing: 0.02rem;}
+.plan_index_director_method_list li{width: 90%;margin-left: 10%;position: relative;font-size: 0.24rem;color: #333;;}
+.plan_index_director_method_list li::before{content:counter(sectioncounter) ". ";   
+    counter-increment:sectioncounter; position: absolute;left: -10%;}
+
+/*推荐小说页面*/
+.plan_index_recommend{width: 100%;height: 12rem;padding: 0.4rem 3.7%;}
+.plan_index_recommend_list{width: 100%;height: 7.6rem;/*background: pink;*/display: flex;flex-wrap:wrap;justify-content:space-between;align-content:space-between;margin-top:0.2rem;}
+.plan_index_recommend_list section{flex-basis:30%;height: 3.6rem;/*background: green;*/}
+.plan_index_recommend_list section span{display: block;width: 100%;height: 0.4rem;line-height: 0.4rem;overflow: hidden;}
+.plan_index_recommend_list section span:first-of-type {height: 2.8rem;box-shadow: 0.01rem 0.01rem 0.2rem #c8c9c9,0.02rem 0.02rem 0.4rem  #e5e9e9;}
+.plan_index_recommend_list section span img {width: 100%;height: 100%;}
+.plan_index_recommend_btn{width: 100%;height: 1.3rem;/*background: yellow;*/margin: 0.4rem auto;border-bottom: 1px solid #eee;}

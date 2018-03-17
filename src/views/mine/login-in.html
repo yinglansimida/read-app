@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" href="src/views/mine/css/login-in.css">
+
+<div id="wrapper">
+<div class="login-in-header">
+  <h1>
+  <a href="#/mine">取消</a>
+  登陆豆瓣
+</h1>
+
+<div class="login-in-content">
+<form name='myForm' novalidate class="login-in-form" ng-controller="validateCtrl"  action="https://www.baidu.com/" method="post">
+<div class="login-in-content-user">
+  <input type="text" name="user" value=""  placeholder="手机/邮箱/用户名" ng-model="user" pattern="yuzhitongchuan">
+  <span style="color:red; font-size:12px; float:left;" class="alert alert-danger" ng-show="myForm.user.$error.pattern">不正确</span>
+</div>
+<div class="login-in-content-mima">
+  <input  type="password"  name= 'password' placeholder="密码6到18位" ng-model="password" pattern="123456" >
+  <span style="color:red; font-size:12px; float:left;" class="alert alert-danger" ng-show="myForm.password.$error.pattern">格式不正确</span>
+</div>
+<div class="login-in-content-yan" ng-controller="yanCtrol" data-ng-init="load()">
+  <input type="text" name="name" value="" placeholder="验证码" id = "input"/>
+  <input type="button" id="code" ng-click="createCode()" style="width:60px" title='点击更换验证码' />
+</div>
+
+</form>
+<div class="login-in-btn" ng-controller="yanCtrol">
+  <a href="#" type="submit"  ng-click = "validate()">登陆</a>
+</div>
+<div class="login-in-other">
+<a href="#">  其他登陆方式&找回密码</a>
+</div>
+<div class="login-in-app">
+<a href="#"> 使用豆瓣App</a>
+</div>
+</div>
+</div>
+
+</div>
+
+
+

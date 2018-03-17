@@ -1,0 +1,181 @@
+body{
+	background-color: #f8f9f9;
+}
+/*==========================tab菜单切换=========================*/
+.finalist-mune{
+	height: .44rem;
+	background-color: #c05a32;
+}
+.finalist-mune ul{
+	height: .44rem;
+	width: 100%;
+	padding: 0 .5rem;
+}
+.finalist-mune li{
+	height: .44rem;
+	line-height: .44rem;
+	float: left;
+	width: .65rem;
+	text-align: center;
+	font-size: .17rem;
+}
+.finalist-mune li a{
+	color: #fff;
+}
+.finalist-msg{
+	width: 3.36rem;
+	border: .01rem solid #eef0ed;
+	padding: .3rem .3rem 0 .3rem;
+	margin: .35rem auto .2rem;
+	font-size: .14rem;
+}
+.finalist-msg p{
+	word-spacing: .01rem;
+	line-height: .24rem;
+}
+.finalist-msg p:first-child{
+	margin-bottom: .2rem;
+}
+.finalist-title{
+	width: 100%;
+	height: .67rem;
+	line-height: .67rem;
+}
+.finalist-title h2{
+	text-align: center;
+	font-size: .24rem;
+	color: #b5684a;
+	font-weight: 600;
+}
+.finalist-content section{
+	width: 3.36rem;
+	border: .01rem solid #eef0ed;
+	padding: .2rem;
+	margin: 0 auto .15rem;
+	background-color: #fff;
+	position: relative;
+}
+.finalist-content section>img{
+	width: 1.08rem;
+	height: 1.6rem;
+	float: left;
+	margin-right: .15rem;
+}
+.finalist-content section h2{
+	color: #b5684a;
+	font-size: .17rem;
+	margin-bottom: .11rem;
+}
+.finalist-content section>p{
+	color: #acacac;
+}
+.finalist-content article img{
+	width: .18rem;
+	height: .15rem;
+	vertical-align: sub;
+	margin-right: .05rem;
+}
+.finalist-content article p{
+	color: #fff;
+	display: inline-block;
+}
+.finalist-content article{
+	border: .01rem solid #c75634;
+	background-color: #c75634;
+	border-radius: 1rem;
+	display: inline-block;
+	width: .82rem;
+	height: .3rem;
+	text-align: center;
+	line-height: .26rem;
+	margin-top: .65rem;
+}
+.finalist-article{
+	margin-top: .2rem;
+	border-top: .02rem solid #f4f4f2;
+	padding-top: .2rem;
+}
+.finalist-article section{
+	margin-bottom: .2rem;
+}
+.finalist-article h3{
+	margin-bottom: .13rem;
+	font-size: .14rem;
+}
+.competition-imgico{
+	background: url(../images/icon-trophy.png) 0 0;
+	background-size: 100%;
+	width: .32rem;
+	height: .32rem;
+	float: left;
+	margin-right: .12rem;
+}
+.trophy-blue{
+    background-position: 0 -32px;
+}
+.trophy-green {
+    background-position: 0 -128px;
+}
+.trophy-red {
+    background-position: 0 -160px;
+}
+.finalist-article p{
+	line-height: .2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.competition-starts{
+	background-image: url(../images/starsx.png);
+	background-size: 100%;
+    width: .73rem;
+    height: .13rem;
+	display: inline-block;
+    /*margin-right: .1rem;*/
+    background-position: 0;
+    vertical-align: -.01rem;
+}
+.competition-strActive{
+	background: url(../images/starsx.png) -.16rem 0 no-repeat;
+	background-size: 100%;
+	display: inline-block;
+    width: .73rem;
+    height: .13rem;
+}
+.con-score{
+	color: #d26978;
+}
+.con-amount{
+	color: #a9a9a9;
+}
+.finalist-dbyd{
+	margin-top: .32rem;
+}
+.finalist-ftbg{
+	height: .38rem;
+	width: 100%;
+	background-color: #424c4e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.finalist-ftbg a{
+	width: 1rem;
+	height: .17rem;
+}
+.finalist-ftbg img{
+	width: 1rem;
+	height: .17rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+﻿.film_box{width: 100%;height: 100%;/*background: pink;*/}
+
+/*通用背景框*/
+.film_box .bg{background:#e4ecee;position: relative;}
+.film_box .bg::before,.bg::after{content: "";width: 100%;height:0.16rem;display: block;background: url(images/film-perfs-white.svg) repeat-x;position: absolute;left: 0;}
+.film_box .bg::before{top: 0rem;}
+.film_box .bg::after{bottom: 0.1rem;}
+
+.film_box h3{font-size: 0.32rem;color:#77a4b3;width: 100%;height: 0.7rem;line-height: 0.7rem;/*background: yellow*/}
+
+/*影视改编头部*/
+.film_header_banner{width: 100%;height: 3.4rem;}
+.film_header_banner section{width: 100%;height:1.2rem;position: relative;/*background: pink;*/}
+.film_header_banner section img{width: 0.7rem;height: 0.6rem;position: absolute;top: 0.5rem;left: 50%;transform:translateX(-50%);}
+.film_header_banner h1{width:100%;height:0.9rem;font-size: 0.48rem;text-align: center;line-height: 0.9rem;/*background: green;*/}
+.film_header_banner p{width:100%;height:0.8rem;font-size: 0.24rem;line-height:0.36rem;text-align: center;color: #333333;/*background: yellow;*/}
+
+
+
+.film_index_box{width: 100%;height: 100%;}
+
+/*通用背景框*/
+.film_index_box .bg{background:#e4ecee;position: relative;}
+.film_index_box .bg::before,.bg::after{content: "";width: 100%;height:0.16rem;display: block;background: url(images/film-perfs-white.svg) repeat-x;position: absolute;left: 0;}
+.film_index_box .bg::before{top: 0rem;}
+.film_index_box .bg::after{bottom: 0.1rem;}
+
+.film_index_box h3{font-size: 0.32rem;color:#77a4b3;width: 100%;height: 0.7rem;line-height: 0.7rem;/*background: yellow*/}
+
+/*影视改编头部*/
+.film_header_banner{width: 100%;height: 3.4rem;}
+.film_header_banner section{width: 100%;height:1.2rem;position: relative;/*background: pink;*/}
+.film_header_banner section img{width: 0.7rem;height: 0.6rem;position: absolute;top: 0.5rem;left: 50%;transform:translateX(-50%);}
+.film_header_banner h1{width:100%;height:0.9rem;font-size: 0.48rem;text-align: center;line-height: 0.9rem;/*background: green;*/}
+.film_header_banner p{width:100%;height:0.8rem;font-size: 0.26rem;line-height:0.36rem;text-align: center;color: #333333;/*background: yellow;*/}
+
+/*影视改编简介*/
+.film_intro{width: 100%;height:5.5rem;padding:0.4rem 3.7% ;/*background:pink;*/}
+.film_intro p{width:100%;font-size: 0.24rem;line-height: 0.4rem;color: #333333; display: block;padding-bottom: 0.2rem;}
+
+/*编剧按钮*/
+.film_btn{width: 100%;height: 1.4rem;text-align: center;/*background: pink*/}
+.film_btn a{width:90%;height: 0.92rem;line-height:0.92rem;background:#71ceb5;border-radius:4.6rem;font-size:0.3rem;font-weight:bolder;color: #fff;display: block;margin-left: 5%;}
+
+/*已售部分*/
+.film_sell_out{width: 100%;height: 2.5rem;padding: 0  3.7%;}
+.film_sell_out a{display: block;width:100%;height:98%;font-size: 0;/*background: cyan;*/padding-top: 2%}
+.film_sell_out h3::after{content: ">";display: inline-block;width: 0.1rem;height: 0.4rem;font-size: 0.2rem;transform:scaleY(1.5);color:#77a4b3;float: right;margin:-0.04rem 0 0 0;}
+.film_sell_out img{width:100%;height: 1.2rem;}
+
+/*内容区  待改编的故事作品*/
+.film_main{width: 100%;height: 100%;/*background: green;*/padding: 0  3.7%;}
+.film_main .film_main_hd{width: 100%;height:1rem;line-height:1rem;/*background: yellow*/}
+.film_main .film_main_hd h3{padding-top: 0.3rem;}
+.film_main_bd{width:100%;height: 100%;padding-bottom:1rem;}
+.film_list{width:100%;}
+.film_list li{width:100%;height:4.8rem;border-bottom: 1px solid #eee;}
+.film_list li:last-of-type{border-bottom: 0;}
+
+.film_list li a{width: 100%;height: 100%;display: block;/*background: pink;*/}
+.film_list li a h4{font-size:0.28rem;color: #333;height: 0.8rem;line-height: 0.8rem;/*background: yellow;*/}
+.film_list li a dl{width:100%;height: 2rem;background:#ebf0f2;padding: 0.24rem 5%;color:#a6a6a6}
+.film_list li a dl dt{width:20%;height: 1.52rem;float: left;position: relative;box-shadow: 0.02rem 0.02rem 0.1rem #c0c4c6,0.04rem 0.04rem 0.1rem #bec2c3;}
+.film_list li a dl dt img{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.film_list li a dl dd{width: 75%;height: 1.52rem;/*background: cyan;*/float: right;}
+.film_list li a dl dd p{font-size: 0.24rem;width: 100%;height: 0.38rem;line-height: 0.38rem;text-overflow:ellipsis;white-space: nowrap;overflow: hidden;}
+.film_list li a dl dd p .red{color: red;}
+.film_list li a dl dd p:last-of-type{/*background: yellow;*/margin-top: 0.05rem;}
+.film_list li a dl dd p:last-of-type span{display: inline-block;vertical-align: middle;overflow: hidden;}
+.film_list li a dl dd p:last-of-type span:first-of-type{width:35%;height: 100%;/*background: cyan;*/}
+.film_list li a dl dd p:last-of-type span:first-of-type img{width: 14%;height: 80%;display: inline-block;border: 0;}
+
+.film_list li a article{width:100%;height:1.6rem;line-height: 0.4rem;font-size: 0.24rem;/*background: orange;*/margin-top: 0.05rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;}
+
+/*点击加载更多*/
+.getmore{width: 100%;height: 1rem;text-align: center;line-height: 1rem;font-size: 0.32rem;color: #333;margin-top: 1rem;background: #eee;}

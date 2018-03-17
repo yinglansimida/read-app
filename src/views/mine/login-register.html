@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="src/views/mine/css/login-register.css" >
+<div class="login-register">
+  <h1>欢迎加入豆瓣</h1>
+<form class="login-register-form" method="post" name="formRegiser">
+<div class="login-register-content-user">
+  <input type="text" name="username" value=""  placeholder="手机/邮箱/用户名" ng-model="user" pattern="12">
+  <span style="color:red; font-size:12px; float:left;" class="alert alert-danger" ng-show="formRegiser.username.$error.pattern">不正确</span>
+</div>
+<div class="login-register-content-mima">
+  <input type="password" name="password" placeholder="密码" ng-model="password" pattern="12">
+  <span style="color:red; font-size:12px; float:left;" class="alert alert-danger" ng-show="formRegiser.password.$error.pattern">不正确</span>
+</div>
+<div class="login-register-content-yan">
+  <input type="text" name="name" value="" placeholder="昵称">
+</div>
+<div class="login-register-btn">
+  <button  class="btn"><a href="#">下一步</a></button>
+  <p>点击下一步证明你已经阅读并同意 <a href="#">用户使用协议</a></p>
+   </div>
+</form>
+<div class="login-register-app">
+<a href="#"> 使用豆瓣App</a>
+</div>
+  </div>
+

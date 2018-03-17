@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="src/views/movies/movies.detail/movie_detail.css">
+<!-- 影视改编具体介绍页 -->
+<div class="movie_detail_box" ng-controller="movieDetail">
+
+<!-- 头部 -->
+<section class="movie_detail_header">
+	<p>影视改编项目</p>
+	<h2>{{itemsData.title}}</h2>
+	<section class="movie_detail_header_intro">
+		<p>
+			<span>原作品</span>
+			<span><a ui-sref="xq({id:x.id,objData:itemsData})">查看作品详情</a></span>
+		</p>
+		<div>
+			<dl>
+				<dt>
+					<img ng-src="src/views/movies/images/mm.jpg"/>
+				</dt>
+				<dd>
+					<p>作者：{{itemsData.author[0]}}</p>
+					<p>页数：{{itemsData.pages}}页</p>
+					<p>标签：<i ng-repeat="a in itemsData.tags track by $index">{{a.name}},</i>
+					</p>
+					<p>
+						<span>
+							<create-Star value="{{itemsData.rating.average}}" show="show(value)"></create-Star>
+							<!-- <img src="src/views/movies/images/stars@2x.png"> -->
+						</span>
+						<span class="red">{{itemsData.rating.average}}</span>
+						<span>| &nbsp;{{itemsData.rating.numRaters}} 人评价</span>
+					</p>
+				</dd>
+			</dl>
+		</div>
+	</section>
+</section>
+
+<!-- 收集方 -->
+<section class="movie_detail_collect">
+	<p ng-show="flag">改编剧本大纲收集中</p>
+	<p ng-hide="flag">作品影视改编版权已售出</p>
+	<img ng-src="src/views/movies/images/icon-sold@2x.png" ng-hide="flag" class="odd_img"/>
+	<div class="movie_detail_collect_intro">
+		<p>
+			豆瓣阅读原创作品，邀请专业编剧和影视公司共同参与它的影视改编。
+		</p>
+		<p>
+			编剧可以提交改编剧本大纲。优秀编剧将获得豆瓣阅读资助，将其发展成完整剧本。
+		</p>
+		<p>
+			影视公司可以查看豆瓣阅读挑选出的优秀大纲，向豆瓣阅读联系版权购买或投资制作的其他事宜。
+		</p>
+	</div>
+	<div class="movie_detail_collect_btn">
+		<a ui-sref="movies.adaptation">我是编剧 / 我是制片方</a>
+	</div>
+</section>
+
+
+<!-- 豆瓣阅读推荐 -->
+<section class="movie_detail_recommend same">
+	<h4>作者介绍</h4>
+	<div class="movie_detail_recommend_text">
+		<p>
+			{{itemsData.author_intro}}
+		</p>
+	</div>
+</section>
+
+<!-- 内容介绍 -->
+<section class="movie_detail_content same">
+	<h4>内容介绍</h4>
+	<div class="movie_detail_content_text">
+		<p >{{itemsData.summary}}</p>
+	</div>
+</section>
+
+<!-- 查看原作 -->
+<section class="movie_detail_checkfile">
+	<a ui-sref="xq({id:x.id,objData:itemsData})">查看原作品</a>
+</section>
+</div>
+

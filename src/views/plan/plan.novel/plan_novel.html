@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="src/views/plan/plan.novel/plan_novel.css"/>
+<!-- 推荐小说页面 -->
+<div class="plan_novel_box"  ng-controller="planNovel">
+	<h3>推荐小说</h3>
+	<section ng-repeat="novelItems in novelMore track by $index">
+		<a ui-sref="xq({id:x.id,objData:novelItems})">
+			<h4>{{novelItems.title}}</h4>
+			<dl>
+				<dt>
+					<img ng-src={{novelItems.image}} />
+				</dt>
+				<dd>
+					<p>作者：{{novelItems.author[0]}}</p>
+					<p>页数：{{novelItems.pages}}</p>
+					<p>标签：<span ng-repeat="tg in novelItems.tags">{{tg.name}},</span></p>
+					<p>
+						<span>
+							<create-Planstar value="{{novelItems.rating.average}}" show="show(value)"></create-Planstar>	
+							<!-- <img src="src/views/plan/images/stars@2x.png"> -->
+						</span>
+						<span class="red">{{novelItems.rating.average}}</span>
+						<span> {{novelItems.rating.numRaters}}人评价</span>
+					</p>
+				</dd>
+			</dl>
+			<article>
+				<p>{{novelItems.summary}}</p>
+			</article>
+		</a>
+	</section>
+</div>
+

@@ -1,0 +1,489 @@
+
+.active {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+} 
+main {
+	margin-top: .53rem;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	overflow-y:scroll; 
+}
+.xq_books {
+	width: 100%;
+	height: 1.75rem;
+	background-color: #fff;
+	border-top:.01rem solid #eee;
+	position: relative;
+}
+
+.xq_books_jianjie {
+	width: 100%;
+	height: 1.75rem;
+	padding:.0 .14rem 0;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.xq_books_jianjie h2 {
+	font-size: .2rem;
+	height: .26rem;
+	line-height: .26rem;
+	color: #333333;
+}
+.xq_pingjia {
+	height: .30rem;
+	line-height: .30rem;
+	color: #aeaec4;
+	font-size: .13rem;
+	display: flex;
+}
+.starImg {
+	display: flex;
+	width: 1rem;
+}
+.starImg img {
+	width: .15rem;
+	height: .15rem;
+	display: flex;
+	float: left;
+	margin-top: .07rem;
+}
+.start {
+	background: url(../imgs/stars.svg) center center no-repeat;
+	display: inline-block;
+	width: .85rem;
+	height: .15rem;
+	position: relative;
+	top: .04rem;
+	overflow: hidden;
+}
+.score {
+	color: #fa595f;
+}
+.xq_pingjia em {
+	font-style: normal;
+}
+.xq_books_jianjie p {
+	height: .2rem;
+	color: #aeaec4;
+	font-size: .13rem;
+	line-height: .2rem;
+}
+.xq_books_fengmian img {
+	width: .8rem;
+	height: 1.2rem;
+	position: absolute;
+	right: .15rem;
+	top: .24rem;
+	box-shadow: .02rem .02rem .02rem #e3e3e3;
+}
+.xq_read_btn {
+	width: 100%;
+	height: .38rem;
+	padding:.0 .14rem 0;
+	display: flex;
+	justify-content:space-between;
+}
+.xq_read_dian {
+	display: inline-block;
+	width: 2.48rem;
+	height: .38rem;
+	color: #fff;
+	font-size: .14rem;
+	background-color: #71ceb5;
+	border-radius: .19rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.xq_read_dian img {
+	margin-right:.1rem; 
+}
+.xq_read_shar {
+	width: .38rem;
+	height: .38rem;
+	display: inline-block;
+	border-radius: .19rem;
+	border:.01rem solid #efefef;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.xq_read_shar img {
+	width: .21rem;
+	height: .21rem;
+}
+
+.xq_books_price {
+	width: 100%;
+	height: .5rem;
+	border:.01rem solid #ededed;
+	display: flex;
+	margin-top: .1rem;
+	justify-content:center;
+	align-items:center;
+}
+.xq_books_price span {
+	flex-basis:50%;
+	font-size: .13rem;
+	text-align: center;
+}
+.xq_books_buy, .xq_books_load {
+	flex-basis:24.5%;
+	display: flex;
+	color: #a6a6a6;
+	font-size: .13rem;
+	flex-direction :column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+}
+.xq_books_buy>span {
+	display: block
+}
+.xq_books_buy {
+	border-right: .01rem solid #ededed;
+	border-left: .01rem solid #ededed;
+
+}
+.xq_books_introduction, .xq_books_list, .xq_books_label, .xq_books_provider, .xq_books_readerComment {
+	background-color: #f8f9f9;
+	padding:.0 .14rem 0;
+	font-size: .14rem;
+	color: #333;
+	line-height: .23rem;
+	border-bottom: .01rem solid #ededed;
+	padding-bottom: .075rem;
+}
+.xq_books_introduction img, .xq_books_list img {
+	margin:0 auto;
+	height: .06rem;
+	margin-top: .075rem;
+	width: 100%;
+} 
+.xq_books_in_title h3, .xq_books_list_title h3, .xq_books_lab_title h3, .xq_books_pro_title h3, .xq_books_rc_title h3 {
+	padding-top: .05rem;
+	line-height: .4rem;
+
+}
+.xq_books_list_content ul li::before {
+	display: inline-block;
+    text-align: center;
+    content: '•';
+    color: #a6a6a6;
+    width: .6rem;
+    line-height: .5;
+    margin-left: -.06rem;
+}
+.xq_books_lab_content {
+	margin-bottom: .15rem;
+}
+.xq_books_lab_content ul li {
+	display: inline-block;
+	margin-top: .05rem;
+	margin-right: .03rem;
+	padding:.1rem;
+	font-size: .15rem;
+	background-color: #77a4b3;
+	color: white;
+}
+
+.xq_books_pro_content_title {
+	display: flex;
+	line-height: .24rem;
+	align-items:center;
+}
+.xq_books_pro_content_title img {
+	width:.24rem;
+	height: .24rem;
+	border-radius: .24rem;
+	margin-top: .1rem;
+	margin-right: .14rem;
+	margin-bottom: .14rem;
+}
+.xq_books_pro_content_total {
+	width: 100%;
+	height: .38rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.xq_books_pro_content_total {
+	margin:.15rem 0;
+}
+.xq_books_pro_content_link {
+	display: flex;
+	width: 2.08rem;
+	height: .35rem;
+	background-color: #fff;
+	border-radius: .175rem;
+	justify-content:center;
+	align-items:center;
+}
+.xq_books_pro_content_link img 
+{
+	width: .2rem;
+	height: .17rem;
+	margin-right: .1rem;
+}
+.xq_books_rc_content {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	color: #999999;
+	margin-bottom: .15rem;
+}
+
+
+
+
+
+
+/*footer {
+	width: 100%;
+	height: 2.14rem;
+	line-height: .4rem;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-size: .24rem;
+	color: #999999;
+	background-color: #f8f9f9;
+}
+.xq_books_footer_link {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.xq_books_footer_border {
+	margin:0 .1rem;
+	display: inline-block;
+}
+.xq_books_footer_link a {
+	color: #999999;
+}
+.xq_books_footer_link a:last-child {
+	color: #9be0f9;
+}
+.xq_books_mobile {
+
+	color: #9be0f9;
+}
+*/
+
+
+
+
+/*分享*/
+.share {
+	display: none;
+	background-color: #fff;
+	position: fixed;
+	top: 0rem;
+	left: 0;
+	z-index: 10;
+}
+
+
+.bgColor {
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7)
+}
+.share-opcityBg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	position: relative;
+}
+.share-box{
+	width: 90%;
+	margin: 0 auto;
+	height: 2.26rem;
+	background-color: #f8f8f8;
+	position: relative;
+	top: 1.75rem;
+	right: 0;
+	bottom: .75rem;
+	border-radius: .05rem;
+	padding: .025rem .2rem;
+}
+.share-box h3{
+	font-size: .14rem;
+	text-align: center;
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+	color: #363636;
+}
+.share-icos{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	text-align: center;
+	color: #333333;
+}
+.share-icos section:nth-child(5){
+	flex-basis:100%;
+}
+.share-icos section:nth-child(5) a{
+	margin:0 auto;
+	margin-top: .25rem;
+}
+.share-icos a{
+	width: .48rem;
+	height: .48rem;
+	padding: .08rem;
+	border: .01rem solid #f0f0f0;
+	background-color: #fff;
+	border-radius: .1rem;
+}
+.share-cancle{
+	width: 90%;
+	margin: 0 auto;
+	height: .42rem;
+	background-color: #f8f8f8;
+	position: relative;
+	top: 2rem;
+	
+	bottom: .2rem;
+	border-radius: .05rem;
+	text-align: center;
+	line-height: .42rem;
+}
+.share-cancle p{
+	font-size: .15rem;
+	font-weight: normal;
+}
+
+
+
+
+
+.login {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+/*@import "reset.css";
+@import "rem.css";
+@charset "utf-8";*/
+
+
+.loginP {
+	background-color: #fff;
+	position: absolute;
+	top: 1.5rem;
+	left: 0;
+	right: 0;
+	width: 90%;
+	margin: 0 auto;
+    padding-bottom: .2rem;
+}
+.nav {
+  height: 0.45rem;
+  width: 100%;
+  line-height: 0.45rem;
+  display: flex;
+}
+.login-a {
+  width: .25rem;
+  height: .5rem;
+  position: absolute;
+  right: 0.1rem;
+  font-size: .24rem;
+  color: #aae1d3;
+}
+.login-logo {
+  background: url(https://img3.doubanio.com/f/ark/9b217811f3af2e6865d48a625c8d11f582a9310a/pics/logo/normal-nav.svg) no-repeat center;
+  width: 1rem;
+  height: 100%;
+}
+.header-arrow {
+  width: 0.2rem;
+  height: 100%;
+  background: url(https://img3.doubanio.com/f/ark/91969d5ecd2e1adb35dedaed72ab0e024d528baa/pics/common/icon-nav-arrow-down.svg) no-repeat center;
+}
+.login-search {
+  height: 100%;
+  width: 0.21rem;
+}
+.login-search span {
+  background: url(https://img3.doubanio.com/f/ark/3dee390e5b6b004a95743ae090e83e70eeb2dfc8/pics/mobile/ic_search@2x.png) no-repeat center;
+  width: 0.21rem;
+  height: 0.21rem;
+}
+.login-nav-right {
+  width: 70%;
+  height: 0.45rem;
+}
+.login-content {
+  width: 100%;
+}
+.login-content1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.14rem;
+}
+.login-content1 p {
+  color: #aac6d1;
+  font-size: 0.14rem;
+}
+.login-content2 {
+  width: 100%;
+  text-align: center;
+  margin-top: .35rem;
+  font-size: 0.15rem;
+}
+.login-log {
+  width: 100%;
+  font-size: 0.14rem;
+  font-weight: bold;
+  text-align: center;
+}
+.login-log section {
+  text-align: center;
+  height: 0.45rem;
+  width: 2.9rem;
+  line-height: 0.45rem;
+  margin: 0 auto;
+  background: #aae1d3;
+  border-radius: 0.24rem;
+  margin-top: 0.1rem;
+}
+.login-log section a {
+  color: #ffffff;
+}
+.login-log section:first-of-type {
+  margin-top: 0.25rem;
+  background: #70ceb5;
+}
+.login-footer {
+  text-align: center;
+  font-size: 0.14rem;
+  margin-top: .6rem;
+  color: #a6a6b5;
+}
+.login-footer section {
+  margin-top: 0.14rem;
+}
+.login-footer section a {
+  color: #333333;
+}
+.login-footer section a img {
+	vertical-align: middle;
+	padding-right: 0.1rem;
+	width: .34rem;
+}

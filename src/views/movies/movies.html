@@ -1,0 +1,84 @@
+<link rel="stylesheet" type="text/css" href="src/views/movies/movies.css"/>
+<div class="film_box" ng-controller="moviesPage">
+	<div id="wrapper" ui-view>
+		
+		<!-- 电影改编首页 -->
+		<div class="film_index_box">
+			<!-- 影视改编头部 -->
+			<section class="film_header_banner   bg">
+				<section><img ng-src="https://img3.doubanio.com/f/ark/3542749a6fe6eaaec043f276b522bb1a98eca7d4/pics/topic/film/logo-film.mobile@2x.png"></section>
+				<h1>从故事到电影</h1>
+				<p>
+					豆瓣阅读原创作品影视改编
+					<br/>
+					邀请专业人士一起加入
+				</p>
+			</section>
+
+			<!-- 影视改编简介 -->
+			<article class="film_intro">
+				<p>
+					在这里，我们将不断公布受读者欢迎的、有改编潜力的豆瓣阅读原创作品，邀请影视行业的专业人士一起参与作品的影视改编。
+				</p>
+				<p>
+					如果你是影视编剧，你可以在「待改编的故事作品」中挑选故事，并提交你的改编剧本大纲。优秀的编剧将获得豆瓣阅读资助，将剧本大纲继续发展成完整剧本，并有机会参与由该作品改编的影视项目，成为署名编剧并获得相应报酬。
+				</p>
+				<p>
+					如果你来自影视公司，有意购买作品的影视改编权或参与投资、制作，欢迎认证「制片方」身份。豆瓣阅读会向你推荐合适的原创作品和改编剧本大纲。
+				</p>
+			</article>
+
+			<!-- 编剧按钮 -->
+			<section class="film_btn">
+				<a ui-sref="movies.adaptation">我是编剧 / 我是制片方</a>
+			</section>
+
+			<!-- 已售部分 -->
+			<section class="film_sell_out  bg">
+				<a ui-sref="movies.oddsell">
+					<h3>已售出的故事作品</h3>
+					<img ng-src="https://img3.doubanio.com/f/ark/7eed2ca340b8ec4e7ecb3924fcb9cc428c10f28a/pics/topic/film/bg-stories@2x.png" />
+				</a>
+			</section>
+
+			<!-- 内容区  待改编的故事作品 -->
+			<main class="film_main">
+				<div class="film_main_hd">
+					<h3>待改编的故事作品</h3>
+				</div>
+				<div class="film_main_bd">
+					<ul class="film_list" >
+						<li ng-repeat="x in moviesArr | limitTo:letterLimit" >
+							<a ui-sref="movies.detail({id:catoge,objData:x})">
+								<h4>{{x.title}}</h4>
+								<dl>
+									<dt><img ng-src="{{x.image}}"/></dt>
+									<dd>
+										<p >作者：{{x.author[0]}}</p>
+										<p>页数：{{x.pages}}页</p>
+										<p >标签：<span ng-repeat="y in x.tags ">{{y.name}},</span></p>
+										<p>
+											<span>
+												<create-Star value="{{x.rating.average}}" show="show(value)"></create-Star>	
+											</span>
+											<span class="red">{{x.rating.average}}</span>
+											<span>|&nbsp;{{x.rating.numRaters}}人评价</span>
+										</p>
+									</dd>
+								</dl>
+								<article><p>{{x.summary}}</p></article>
+							</a>
+						</li>
+					</ul>
+					
+					<!-- 点击加载更多 -->
+					<div class="getmore  more" ng-show="flag" ng-click="getMore()">点击加载更多</div>
+
+					<div class="getmore  no" ng-hide="flag">没有更多信息啦~</div>
+
+				</div>
+			</main>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,17 @@
+.plan_novel_box{width: 100%;background: #f8f9f9;padding: 0.4rem 3.7% 1rem;}
+.plan_novel_box h3{width: 100%;height: 1rem;line-height: 1rem;font-size:0.36rem;color:#60aaa7;font-weight: bold;}
+.plan_novel_box section{width: 100%;height:5rem;background: #fff;border:0.01rem solid #eee;padding:0.2rem 4%;margin-bottom:0.2rem;}
+.plan_novel_box section a{width: 100%;height:100%;display: block; }
+
+.plan_novel_box section a h4{font-size:0.28rem;color: #333;height: 0.8rem;line-height: 0.8rem;/*background: yellow;*/}
+.plan_novel_box section a dl{width:100%;height: 2rem;background:#ebf0f2;padding: 0.24rem 5%;color: #999}
+.plan_novel_box section a dl dt{width:20%;height: 1.52rem;float: left;position: relative;box-shadow: 0.02rem 0.02rem 0.1rem #c0c4c6,0.04rem 0.04rem 0.1rem #bec2c3;}
+.plan_novel_box section a dl dt img{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.plan_novel_box section a dl dd{width: 75%;height: 1.52rem;/*background: cyan;*/float: right;}
+.plan_novel_box section a dl dd p{font-size: 0.24rem;width: 100%;height: 0.38rem;line-height: 0.38rem;text-overflow:ellipsis;white-space: nowrap;overflow: hidden;}
+.plan_novel_box section a dl dd p .red{color: red;margin-right: 0.1rem;}
+.plan_novel_box section a dl dd p:last-of-type{/*background: yellow;*/margin-top: 0.05rem;}
+.plan_novel_box section a dl dd p:last-of-type span{display: inline-block;vertical-align: middle;}
+.plan_novel_box section a dl dd p:last-of-type span:first-of-type{width:45%;height: 100%;/*background: cyan;*/}
+.plan_novel_box section a dl dd p:last-of-type span:first-of-type img{width: 15%;height: 100%;display: inline-block;border: 0}
+.plan_novel_box section a article{width:100%;height:1.6rem;line-height: 0.4rem;font-size: 0.24rem;margin-top: 0.05rem;/*background: orange;*/overflow: hidden;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;}

@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="src/views/home/columns.hot/columns.hot.css"/>
+<div ng-controller="columnsHotCtrl">
+	<ul class="books">
+		<li ng-repeat="x in hot">
+			<a href="#" ui-sref="xq({id:x.id,objData:x})">
+				<img ng-src={{x.image}} class="cover" />
+				<h3 class="title">{{x.title}} <span>专栏</span></h3>
+				<p class="subtitle">{{x.tags['6'].name}}</p>
+				<p class="author">{{x.author[0]}}</p>
+				
+				<p class="num">{{x.publisher}}</p>
+				<p class="abstract">{{x.summary}}</p>
+				<p class="price">出版时间： {{x.pubdate}}</p>
+				
+				
+				
+			
+			</a>
+			
+		</li>
+	</ul>
+</div>

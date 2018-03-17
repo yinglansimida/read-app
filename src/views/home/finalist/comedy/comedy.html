@@ -1,0 +1,62 @@
+
+<link rel="stylesheet" type="text/css" href="comedy/comedy.css"/>
+<div id="wrapper" ng-controller="comedyPage">
+	<div class="finalist-container">
+		<div class="finalist-msg">
+			<p>
+喜剧通常是一种戏剧形式，也会出现写作之中，如幽默已是一种小说写作传统。 本届征文，我们同时欢迎喜剧的「戏剧性」和「语言性」，可以是有强烈情节推动的、 有困境、有矛盾冲突的完整喜剧故事， 也可以是场景简单、语言幽默的短故事集。
+</p>
+			<div class="finalist-article">
+				<h3>奖项</h3>
+				<section>
+					<p class="competition-imgico"></p>
+					<p>首奖</p>
+					<p>1 名，奖金 2 万元</p>
+				</section>
+				<section>
+					<p class="competition-imgico trophy-blue"></p>
+					<p>优秀奖</p>
+					<p>3 名，奖金各 1 万元</p>
+				</section>
+				<section>
+					<p class="competition-imgico trophy-green"></p>
+					<p>特别奖 · 最佳女性角色奖</p>
+					<p>1 名，奖金 1 万元</p>
+				</section>
+				<section>
+					<p class="competition-imgico trophy-red"></p>
+					<p>合作方奖 · 新丽传媒特别奖</p>
+					<p>1 名，奖金 1 万元</p>
+				</section>
+			</div>
+		</div>
+		<div class="finalist-content" ng-repeat="x in pro">
+			<section ui-sref="xq({id:x.id,objData:x})" ng-click="headHidden()">
+				<img ng-src="{{x.image}}"/>
+				<h2>{{x.title}}</h2>
+				<p>Gibi</p>
+				<div class="competition-starts">
+					<span class="competition-strActive"></span>
+				</div>
+				<span class="con-score">{{x.rating.average}}</span>
+				<span class="con-amount"> | {{x.rating.numRaters | limitTo:2}}</span>
+				<article>
+					<img src="images/bookico.png"/>
+					<p>阅读</p>
+				</article>
+				<div class="finalist-article">
+					<h3>作者简介</h3>
+					<p>{{x.author_intro}}</p>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="finalist-dbyd">
+		<div class="finalist-ftbg">
+			<a href="#"><img src="images/ftbg.png"/></a>
+		</div>
+	</div>
+	
+	<!--==================================================================-->
+</div>
+

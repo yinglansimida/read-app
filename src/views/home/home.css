@@ -1,0 +1,102 @@
+
+nav>a img{
+	height: 2rem;
+	width: 100%;
+}
+nav section{
+	height: 1.44rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 .24rem;
+}
+nav section a{
+	width: 2.9rem;
+	border-radius: .04rem;
+	overflow: hidden;
+	line-height: 1rem;
+	text-align: right;
+	color: #fff;
+	font-size: .3rem;
+	background-size: 2.9rem 1rem;
+	padding-right: .1rem;
+}
+nav section a:first-of-type{
+	background: url(images/column-background.jpg);
+}
+nav section a:last-of-type{
+	background: url(images/serial-background.jpg);
+}
+main{
+	padding: 0 .24rem;
+	width: 100%;
+}
+main article{
+	overflow-x: scroll;
+	
+}
+main section{
+	height: 5.06rem;
+	width: 100%;
+	position: relative;
+}
+main section>a{
+	position: absolute;
+	width: .48rem;
+	height: .48rem;
+	border-radius: 50%;
+	background: #77a4b3;
+	right: 0;
+	top: .4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main section>a img{
+	width: .14rem;
+	height: .24rem;
+}
+main section h3{
+	height: 1.16rem;
+	line-height: 1.16rem;
+	font-size: .32rem;
+}
+main section ul{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: 40rem;
+}
+main li{
+	width: 1.6rem;
+	float: left;
+	height: 3.9rem;
+	margin-right: .3rem;
+	font-size: .22rem;
+	margin-left: .1rem;
+}
+main li img{
+	width: 1.6rem;
+	height: 2.38rem;
+	box-shadow: .04rem .04rem .04rem #c9caca;
+}
+main .title{
+	line-height: .32rem;
+	margin-top: .16rem;
+	color: #222222;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+main .author{
+	color: #737373;
+	line-height: .4rem;
+	white-space: pre;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+main .price{
+	color: #78A4B3;
+	line-height: .4rem;
+}

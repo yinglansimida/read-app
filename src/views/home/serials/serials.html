@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="src/views/home/columns/columns.css"/>
+<link rel="stylesheet" type="text/css" href="src/common/css/swiper-3.4.0.min.css"/>
+<div id="wrapper" ng-controller="serialsCtrl">
+	<section class="columns">
+		<h3>豆瓣连载</h3>
+		<p><span>追究对了。</span><span>了解更多 <b>></b></span></p>
+	</section>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="src/common/images/serial-ban1.jpg"/></div>
+	        <div class="swiper-slide"><img src="src/common/images/serial-ban2.jpg"/></div>
+	        <div class="swiper-slide"><img src="src/common/images/serial-ban3.jpg"/></div>
+	        <div class="swiper-slide"><img src="src/common/images/serial-ban4.jpg"/></div>
+
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</div>
+	<main>
+		<section class="columns-hot charts">
+			<a ui-sref="serialshot">
+				<img src="src/views/home/images/icon-more.svg" />
+			</a>
+			<h3>{{hot.name}}</h3>
+			<article>
+				<ul>
+					<li ng-repeat ="x in hot">
+						<a href="#" ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} />
+							<p class="title">{{x.title}}</p>
+							<p class="category">{{x.tags['6'].name}}</p>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="subnum">{{x.rating.numRaters}} 人订阅</p>
+
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section class="columns-last-updated charts">
+			<a ui-sref="serialsupdate">
+				<img src="src/views/home/images/icon-more.svg"/>
+			</a>
+			<h3>{{updated.name}}</h3>
+			<article>
+				<ul>
+					<li ng-repeat ="x in update">
+						<a href="#" ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} />
+							<p class="title">{{x.title}}</p>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="subnum">{{x.rating.numRaters}} 人订阅</p>
+
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section class="columns-categories">
+			<h3>专栏分类</h3>
+			<ul>
+				<li ng-repeat="x in categories">
+					<a href="#" id="{{x.id}}">{{x.name}}</a>
+				</li>
+			</ul>
+		</section>
+	</main>
+</div>

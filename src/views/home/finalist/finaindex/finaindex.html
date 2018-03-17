@@ -1,0 +1,139 @@
+<div id="wrapper" ng-controller="finaindexPage">
+	<div class="finalist-container">
+		<div class="finalist-msg">
+			<p>本届征文大赛设有「职业女性故事」「喜剧故事」「近未来科幻故事」三个组别。每组各设：首奖 1 名，奖金 2 万元；优秀奖 3 名，奖金各 1 万元。另有 4 个特别奖，3 个合作方奖项，奖金各 1 万元。豆瓣阅读征文大赛是由豆瓣阅读主办的面向所有人的主题征文活动，旨在选拔优秀的原创中篇作品，目前已举办至第四届。</p>
+			<p>本届征文共收到 2063 部投稿，编辑部正在进行入围作品的初选。入围作品自 2016 年 10 月 17 日起，分批上架公布。大赛评选结束前，所有入围作品均可免费领取阅读。</p>
+		</div>
+		<div class="finalist-title">
+			<h2>最新入围作品</h2>
+		</div>
+		<!--=============================最新入围作品==================================-->
+		<div class="finalist-content">
+			<section ng-repeat="x in pro"  ui-sref="xq({id:x.id,objData:x})" ng-click="headHidden()">
+				<img ng-src="{{x.image}}"/>
+				<h2>{{x.title}}</h2>
+				<p>{{x.author[0]}}</p>
+				<article>
+					<img src="images/bookico.png"/>
+					<p>阅读</p>
+				</article>
+				<div class="finalist-article">
+					<h3>作者简介</h3>
+					<p class="finalist-neir">{{x.author_intro}}</p>
+				</div>
+				<span class="finalist-absolut">最新入围作品</span>
+			</section>
+		</div>
+		<!--===============================================================-->
+		<section class="finalist-gushi">
+			<div class="finalist-hd">
+				<div class="finalist-icobg">
+					<i></i>
+				</div>
+				<h2>职业女性故事</h2>
+			</div>
+			<div class="finalist-magin">
+				<a href="#" class="finalist-more">
+					<span>入围作品</span>
+					<img src="images/moreico.png"/>
+				</a>
+			</div>
+			<ul>
+				<li ng-repeat="x in pro  | limitTo:6">
+					<a href="#"><img ng-src="{{x.image}}"/></a>
+					<a href="#" class="fina-title">{{x.title}}</a>
+					<p class="finalist-author">{{x.author[0]}}</p>
+				</li>
+			</ul>
+		</section>
+		<section class="finalist-gushi">
+			<div class="finalist-hd">
+				<div class="finalist-icobg fina-xj">
+					<i></i>
+				</div>
+				<h2>喜剧故事</h2>
+			</div>
+			<div class="finalist-magin">
+				<a href="#" class="finalist-more">
+					<span>入围作品</span>
+					<img src="images/moreico.png"/>
+				</a>
+			</div>
+			<ul>
+				<li ng-repeat="x in pro2 | limitTo:6">
+					<a href="#"><img ng-src="{{x.image}}"/></a>
+					<a href="#" class="fina-title">{{x.title}}</a>
+					<p class="finalist-author">{{x.author[0]}}</p>
+				</li>
+			</ul>
+		</section>
+		<section class="finalist-gushi">
+			<div class="finalist-hd">
+				<div class="finalist-icobg fina-kh">
+					<i></i>
+				</div>
+				<h2>近未来科幻故事</h2>
+			</div>
+			<div class="finalist-magin">
+				<a href="#" class="finalist-more">
+					<span>入围作品</span>
+					<img src="images/moreico.png"/>
+				</a>
+			</div>
+			<ul>
+				<li ng-repeat="x in pro3 | limitTo:6">
+					<a href="#"><img ng-src="{{x.image}}"/></a>
+					<a href="#" class="fina-title">{{x.title}}</a>
+					<p class="finalist-author">{{x.author[0]}}</p>
+				</li>
+			</ul>
+		</section>
+		<div class="finalist-shuoming">
+			<h3>赛事说明</h3>
+		</div>
+		<h4 class="finalist-fontSize">赛事要求</h4>
+		<ul class="finalist-ulList">
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+		</ul>
+		<h4 class="finalist-fontSize finalist-sslc">大赛流程</h4>
+		<div class="finalist-numcon">
+			<p>1</p>
+			<h3>公开征稿</h3>
+			<acticle>面向所有人公开征集作品。每位参赛者只能选择一个主题提交一部作品。具体作品要求见大赛主题说明。</acticle>
+		</div>
+		<div class="finalist-numcon">
+			<p>2</p>
+			<h3>公开征稿</h3>
+			<acticle>面向所有人公开征集作品。每位参赛者只能选择一个主题提交一部作品。具体作品要求见大赛主题说明。</acticle>
+		</div>
+		<h4 class="finalist-fontSize finalist-line">大赛声明</h4>
+		<ul class="finalist-ulList">
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+			<li>大赛分组别进行评选，投稿时需选择其中一组，不可同时参加。</li>
+		</ul>
+		<h4 class="finalist-fontSize finalist-line">常见问题</h4>
+		<div class="finalist-matter">
+			<h5>我该怎样投稿呢？不是豆瓣阅读作者可以参赛吗？有国籍和年龄的限制吗？</h5>
+			<p>请关注豆瓣阅读网站获取每年征文大赛开始的时间和要求等信息。征文大赛征稿开始后， 点击征文大赛页面的「提交作品」，即可进入线上投稿流程，大赛不接受邮箱投稿。征文大赛面向所有人， 没有国籍和年龄的限制。没有豆瓣帐号的，只需完成注册，即可投稿。</p>
+		</div>
+		<div class="finalist-matter">
+			<h5>我该怎样投稿呢？不是豆瓣阅读作者可以参赛吗？有国籍和年龄的限制吗？</h5>
+			<p>请关注豆瓣阅读网站获取每年征文大赛开始的时间和要求等信息。征文大赛征稿开始后， 点击征文大赛页面的「提交作品」，即可进入线上投稿流程，大赛不接受邮箱投稿。征文大赛面向所有人， 没有国籍和年龄的限制。没有豆瓣帐号的，只需完成注册，即可投稿。</p>
+		</div>
+		<div class="finalist-matter">
+			<h5 class="finalist-widthfont">有任何疑问请致信 read-competition@douban.com 咨询</h5>
+		</div>
+	</div>
+	<div class="finalist-dbyd">
+		<div class="finalist-ftbg">
+			<a href="#"><img src="images/ftbg.png"/></a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,141 @@
+
+<link rel="stylesheet" href="src/views/plan/plan.css" />
+<div class="plan_box" >
+
+		<!-- 短片计划头部 -->
+		<section class="plan_header">
+			<img ng-src="src/views/plan/images/plan_header.png" />
+		</section>
+		<!-- 短片计划导航栏 -->
+		<nav class="plan_nav" ng-controller="planList">
+			<div class="plan_nav_cont">
+				<section ui-sref="plan">
+					<a >首页</a>
+				</section>
+				<section  ng-switch="changeList">
+					<span class="plan_list" ng-switch-when="0"></span>
+					<span class="plan_list" ng-switch-when="1">短片介绍计划</span>
+					<span class="plan_list" ng-switch-when="2">入选影片</span>
+					<span class="plan_list" ng-switch-when="3">推荐小说</span>
+				</section>
+				<section>
+					<a ui-sref="movies">
+						<section class="plan_film">
+							<span class="plan_film_img"><img src="src/views/plan/images/plan_movie.png"/></span>
+							<span class="plan_film_title " >影视改编</span>
+						</section>
+					</a> 
+				</section>
+			</div>
+			<span class="right_arrow" ng-show = "changeList!=0"></span>
+		</nav>
+		<!-- 内容去域 -->
+		<main class="plan_wrap"  ui-view>
+			
+
+			<!-- 短片计划首页 -->
+			<div class="plan_index_box">
+
+				<!-- 短片计划介绍模块 -->
+				<div class="plan_index_intro">
+					<section>
+						<h3>什么是短片？</h3>
+						<div>
+							<p>
+								短片是指片长不超过 15 分钟的影片。它是电影行业中重要的内容形式，各大电影节都有专门的短片奖项。<br/>
+								青年导演在拍电影的职业道路上，都会从拍短片开始，这也是他们展示自己拍片能力的重要开始。对于观众而言，短片本身也很好看，越来越多的年轻人在手机上看短片、分享短片。豆瓣的影视计划会从短片开始。
+							</p>
+						</div>
+					</section>
+					<section>
+						<h3>豆瓣短片计划</h3>
+						<p>豆瓣将提供青年导演拍短片的机会。「短片计划」如下：</p>
+						<div>
+							<h4>豆瓣提供小说</h4>
+							<p>豆瓣阅读将开放原创小说的短片拍摄权，即导演可以在豆瓣阅读里挑选自己想改编拍摄的小说。如果觉得在全站挑选小说有困难，豆瓣阅读也会精选 20 部作品，推荐导演可以来拍这些故事。豆瓣阅读的原创小说<a ui-sref="home">在这里</a></p>
+						</div>
+					</section>
+					<section class="btn_wrap"  ng-click="planNavMove()">
+						<span class="btn"  ui-sref="plan.intro({list:1})" >了解更多</span>
+					</section>
+				</div>
+
+				<!-- 入选影片模块 -->
+				<div class="plan_index_selected">
+					<h3>入选影片</h3>
+					<section class="plan_index_selected_content">
+						<a ui-sref="plan.selected">
+							<img ng-src="src/views/plan/images/plan.jpg" >
+						</a>
+						<h5>一日英雄 A Hero for a Day</h5>
+						<div class="plan_index_selected_text">
+							<p>
+								他（Colton Shires 饰演），一个看上去普通的不能再普通的高二男生，却是来自一个残缺破碎的家庭，又因为矮小和口吃而饱受同学孤立和欺辱。这一年他忍无可忍，决心向曾经羞辱他的同学报仇雪恨。为了这个目标，他默默筹备了几个月，然而就在他策划好一切，准备掏出费尽心机搞来 的枪，并即将扣动扳机的那一刻，一场突如其来的意外却打乱了他缜密的复仇计划……
+							</p>
+							<p>
+								本片由豆瓣阅读授权改编，并投资拍摄，取材自第三届豆瓣阅读征文大赛悬疑组首奖作品《校园枪击案策划指南》，原著作者为旅德华裔作家梁柯先生。
+							</p>
+						</div>
+						<div class="getDetail">
+							<span class="btn" ui-sref="plan.selected({list:2})" >查看详情</span>
+						</div>
+						
+					</section>
+				</div>
+
+				<!-- 导演申请模块 -->
+				<div class="plan_index_director">
+					<h3>导演申请</h3>
+					<p>
+						我们希望提供导演拍片机会。你可以在豆瓣所有原创作品中挑选故事来拍，如果豆瓣上没有找到喜欢的故事，你也可以将自己原创短片的想法，向我们提出申请。
+					</p>
+					<section class="plan_index_director_method">
+						<p>
+							以下信息发送至<a href="mailto:read@douban.com">read@douban.com</a>一个星期内我们将与你联系，沟通后续事宜。
+						</p>
+						<ol class="plan_index_director_method_list">
+							<li>
+								关于你想拍摄作品的简单内容策划、预算方案
+							</li>
+							<li>
+								关于你个人的简单介绍（履历和代表作品）
+							</li>
+							<li>
+								你的联系方式
+							</li>
+						</ol>
+					</section>
+				</div>
+
+				<!-- 推荐小说页面 -->
+				<div class="plan_index_recommend" ng-controller="planindex"> 
+					<h3>推荐小说</h3>
+					<div class="plan_index_recommend_list">
+						<section  ng-repeat="indexItems in planIndexData track by $index">
+							<a ui-sref="xq({id:x.id,objData:indexItems})">
+								<span><img ng-src="{{indexItems.image}}"/></span>
+								<span>{{indexItems.title}}</span>
+								<span>{{indexItems.author[0]}}</span>
+							</a>
+						</section>
+						
+					</div>
+					<div class="plan_index_recommend_btn">
+						<a ui-sref="plan.novel({list:3})" class="btn"  ng-click="planNavMove()">更多推荐作品</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+		</main>
+		<!-- 底部区域 -->
+		<!-- <footer class="plan_footer">
+			<a href="#">
+				<img src="src/views/plan/images/logo.svg" />
+			</a>
+		</footer> -->
+	</div>
+</div>

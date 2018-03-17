@@ -1,0 +1,85 @@
+body {
+  overflow-y:hidden;
+}
+.login-in-header h1 {
+  text-align: center;
+  line-height: 0.9rem;
+  border-bottom: 1px solid #eeeeee;
+  font-size: .36rem;
+  padding: 0 .36rem;
+}
+.login-in-header h1 a {
+  font-size: .3rem;
+  color: #42bd56;
+  float: left;
+}
+.login-in-content {
+  margin-top: 0.5rem;
+}
+.login-in-form {
+  text-align: center;
+  width: 100%;
+}
+.login-in-form div {
+  width: 5.8rem;
+  height: 0.86rem;
+  font-size: 0.3rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.login-in-form input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border: 0.02rem solid #cccccc;
+  padding: 0 0.1rem;
+  border-radius: 0.1rem;
+}
+.login-in-btn {
+  width: 2.9rem;
+  height: 0.86rem;
+  background: #17aa52;
+  line-height: 0.86rem;
+  font-size: 0.3rem;
+  text-align: center;
+  margin: .5rem auto .8rem;
+  border-radius: 0.05rem;
+}
+.login-in-btn a {
+  color: white;
+}
+.login-in-other {
+  text-align: center;
+  font-size: 0.14rem;
+  margin-top: 0.18rem;
+}
+.login-in-other a {
+  color: #aaaaaa;
+}
+.login-in-app {
+  text-align: center;
+  margin-top: 0.45rem;
+  font-size: 0.14rem;
+  margin-top: 0.18rem;
+}
+.login-in-app a {
+  color: #42bd56;
+}
+.login-in-content-yan{
+  position: relative;
+}
+#code{
+    font-family:Arial,宋体;
+    font-style:italic;
+    color:green;
+    border:0;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;
+    position: absolute;
+    right: 0rem;;
+    top: 0rem;
+}
+
+

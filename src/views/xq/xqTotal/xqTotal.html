@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="src/views/xq/xqTotal/xqTotal.css">
+<div id="wrapper" ng-controller='xqTotalCtrl'>
+		<!-- 内容 -->
+		<main class='xq_books_totalContent' >
+			<dl ng-repeat='x in pro'>
+				<dt >
+					<img ng-src={{x.cover}}>
+				</dt>
+				<dd>
+					<h2>{{x.title}}</h2>
+					<h5>{{x.subtitle}}</h5>
+					<span>{{x.author}}</span>
+					<p>{{x.abstract}}</p>
+					<h4>￥ {{x.price/100}}</h4>
+				</dd>
+			</dl>
+
+			<dl ng-repeat='x in pro1'>
+				<dt >
+					<img ng-src={{x.cover}}>
+				</dt>
+				<dd>
+					<h2>{{x.title}}</h2>
+					<h5>{{x.subtitle}}</h5>
+					<span>{{x.author}}</span>
+					<p>{{x.abstract}}</p>
+					<h4>￥ {{x.price/100}}</h4>
+				</dd>
+			</dl>
+		</main>
+		
+		<!-- 我加的 -->
+		<section class="footer_top" ng-click='toggle()'>
+			<div>点击加载更多</div>
+		</section>
+
+</div>

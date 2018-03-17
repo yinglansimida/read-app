@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="src/views/home/home.free/home.free.css"/>
+<div ng-controller="homeFreeCtrl">
+	<ul class="books">
+		<li ng-repeat="x in books">
+			<a ui-sref="xq({id:x.id,objData:x})">
+				<img ng-src={{x.image}} class="cover" />
+				<h3 class="title">{{x.title}}</h3>
+				<p class="author">{{x.author[0]}}</p>
+				<p class="abstract">{{x.summary}}</p>
+				<p class="price">免费</p>
+			</a>
+		</li>
+
+
+		<li ng-repeat="x in pro1">
+			<a ui-sref="xq({id:x.id,objData:x})">
+				<img ng-src={{x.image}} class="cover" />
+				<h3 class="title">{{x.title}}</h3>
+				<p class="author">{{x.author[0]}}</p>
+				<p class="abstract">{{x.summary}}</p>
+				<p class="price">免费</p>
+			</a>
+		</li>
+	</ul>
+
+
+	<section class="footer_top" ng-click='toggle()'>
+		<div>点击加载更多</div>
+	</section>
+</div>

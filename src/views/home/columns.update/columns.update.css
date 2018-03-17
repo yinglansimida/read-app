@@ -1,0 +1,71 @@
+.books li{
+	height: 3.82rem;
+	border-bottom: .02rem solid #eeeeee;
+	padding: .34rem .28rem 0 .26rem;
+}
+.cover{
+	width: 1.6rem;
+	height: 2.4rem;
+	float: left;
+	margin-right: .26rem;
+	
+}
+.title{
+	font-size: .26rem;
+	line-height: .42rem;
+}
+.title span{
+	display: inline-block;
+	width: .6rem;
+	height: .3rem;
+	line-height: .3rem;
+	text-align: center;
+	font-size: .22rem;
+	color: #FFFFFF;
+	background: #77a4b3;
+	/*vertical-align: top;*/
+}
+.subtitle{
+	line-height: .34rem;
+	color: #333333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: pre;
+}
+.author{
+	line-height: .44rem;
+	font-size: .24rem;
+	color: #a6a6a6;
+}
+.num{
+	line-height: .76rem;
+	font-size: .24rem;
+	color: #a6a6a6;
+}
+.abstract{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	line-height: .34rem;
+	font-size: .24rem;
+	color: #a6a6a6;
+	/*margin-top: .14rem;*/
+}
+.price span{
+	width: 1.2rem;
+	height: .5ren;
+	border-radius: .02rem;
+	background: #77a4b3;
+	color: #fff;
+	line-height: .5rem;
+	text-align: center;
+	font-size: .24rem;
+	display: inline-block;
+}
+.price{
+	color: #a6a6a6;
+	margin-top: .12rem;
+    margin-left: 1.86rem;
+}

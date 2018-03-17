@@ -1,0 +1,162 @@
+body {
+
+	background-color: #f8f9f9;
+}
+
+
+/*header{
+	width: 100%;
+	height: .9rem;
+	background: #fff;
+	display: flex;
+	overflow: hidden;
+}
+
+
+.logo{
+	display: flex;
+	width: 3.02rem;
+	margin-right: 1.4rem;
+}
+.douban-logo{
+	width: 2.4rem;
+	height: .9rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.douban-logo img{
+	width: 2rem;
+	height: .36rem;
+}
+.douban-down{
+	width: .62rem;
+	height: .9rem;
+}
+.douban-down article{
+	width: .62rem;
+	height: .32rem;
+	border-left: 2px solid #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: .32rem;
+	
+}
+.douban-down img{
+	width: .18rem;
+	height: .12rem;
+}
+.douban-search {
+	width: 2rem;
+	height: .9rem;
+	display: flex;
+}
+.douban-search a,.douban-search article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1rem;
+	height: .9rem;
+}
+.douban-search a img{
+	width: .42rem;
+	height: .42rem;
+}
+.douban-search article img{
+	width: .44rem;
+	height: .46rem;
+}*/
+
+.xq_books_totalContent {
+	background-color: #f8f9f9;
+	width: 100%;
+	overflow: scroll;
+}
+.xq_books_totalContent dl {
+	display: flex;
+	padding:.36rem .36rem .36rem .26rem;
+	border-bottom:.02rem solid #eee;
+}
+
+.xq_books_totalContent dl dt img {
+	width: 1.6rem;
+	height: 2.4rem;
+	margin-right: .24rem;
+	box-shadow: .02rem .02rem .02rem #c9caca;
+
+}
+.xq_books_totalContent dl dd {
+	font-size: .28rem;
+	color: #a6a6a6;
+}
+.xq_books_totalContent dl dd h2 {
+	font-size: .30rem;
+	color: #000;
+}
+.xq_books_totalContent dl dd h5 {
+	color: #000;
+	line-height: .5rem;
+}
+.xq_books_totalContent dl dd span {
+	line-height: .4rem;
+	display: inline-block;
+
+}
+.xq_books_totalContent dl dd p {
+	height: .88rem;
+	line-height: .44rem;
+	white-space: pre-line;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.xq_books_totalContent dl dd h4 {
+	line-height: .5rem;
+}
+
+.footer_top {
+	width: 100%;
+	height: .82rem;
+	background-color: #fff;
+	border-bottom:.02rem solid #eee;
+	display: flex;
+	color: #919ca3;
+	font-size: .28rem;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+
+/*footer {
+	width: 100%;
+	height: 2.14rem;
+	line-height: .4rem;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-size: .24rem;
+	color: #999999;
+	background-color: #f8f9f9;
+}
+.xq_books_footer_link {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.xq_books_footer_border {
+	margin:0 .1rem;
+	display: inline-block;
+}
+.xq_books_footer_link a {
+	color: #999999;
+}
+.xq_books_footer_link a:last-child {
+	color: #9be0f9;
+}
+.xq_books_mobile {
+
+	color: #9be0f9;
+}*/

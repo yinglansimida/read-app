@@ -1,0 +1,90 @@
+<link rel="stylesheet" type="text/css" href="src/views/home/home.css"/>
+<div id="wrapper">
+	<nav>
+		<a href="src/views/home/finalist/finalist.html" class="game">
+			<img src="src/views/home/images/nav.png"/>
+		</a>
+		<section>
+			<a ui-sref='columns'>专栏 ›</a>
+			<a ui-sref='serials'>连载 ›</a>
+		</section>
+	</nav>
+	<main ng-controller="homeCtrl">
+		<section class="main-new">
+			<a ui-sref='homenew'>
+				<img src="src/views/home/images/icon-more.svg"/>
+			</a>
+			<h3>新上架</h3>
+			<article>
+				<ul class="clear">
+					<li ng-repeat="x in new">
+						<a ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} class='lazyload'/>
+							<h4 class="title">{{x.title}}</h4>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="price">{{x.price | currency:'￥'}}</p>
+						</a>
+					</li>
+				</ul>
+			</article>
+			
+			
+		</section>
+		<section class="main-top">
+			<a ui-sref='homehot'>
+				<img src="src/views/home/images/icon-more.svg"/>
+			</a>
+			<h3>热门</h3>
+			<article>
+				<ul class="clear">
+					<li ng-repeat="x in hot">
+						<a ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} class='lazyload'/>
+							<h4 class="title">{{x.title}}</h4>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="price">{{x.price | currency:'￥'}}</p>
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section class="main-gallery">
+			<a ui-sref="homegallery">
+				<img src="src/views/home/images/icon-more.svg"/>
+			</a>
+			<h3>画册</h3>
+			<article>
+				<ul class="clear">
+					<li ng-repeat="x in gallery">
+						<a ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} class='lazyload'/>
+							<h4 class="title">{{x.title}}</h4>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="price">{{x.price | currency:'￥'}}</p>
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section class="main-free">
+			<a ui-sref="homefree">
+				<img src="src/views/home/images/icon-more.svg"/>
+			</a>
+			<h3>免费</h3>
+			<article>
+				<ul class="clear">
+					<li ng-repeat="x in free">
+						<a ui-sref="xq({id:x.id,objData:x})">
+							<img ng-src={{x.image}} class='lazyload'/>
+							<h4 class="title">{{x.title}}</h4>
+							<p class="author">{{x.author[0]}}</p>
+							<p class="price">{{x.price | currency:'￥'}}</p>
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+	</main>
+	
+</div>
+

@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="src/views/xq/xqContent/xqContent.css">
+<div id="wrapper" ng-controller='xqCtrl'>
+		<main>
+			<section class="back"><img src="src/views/xq/imgs/back.png"/></section>
+			<!-- 图书首页 -->
+			<section class='xq_books_dc_list'>
+				<p class="xq_books_detailsContent_title">{{nData.title}}</p>
+
+				<section class="xq_books_detailsContentAuthor">
+					<p>作者：{{nData.author[0]}}</p>
+					<p>出版方：{{nData.publisher}}</p>
+				</section>
+
+				<section class="xq_books_detailsContent_banquan">
+					<p>本作品由{{nData.publisher}}授权北京豆网科技有限公司全球范围内电子版制作与发行。</p>
+					<span>© 版权所有，侵权必究。</span>
+				</section>
+			</section>
+		
+		</main>
+</div>

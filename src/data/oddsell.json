@@ -1,0 +1,668 @@
+{
+    "oddsell": [
+        {
+            "read_count": 63682,
+            "fixed_price": 0,
+            "subtitle": "",
+            "abstract": "第四届豆瓣阅读征文大赛·职业组优秀作品。\n\n故事背景设置在北京金融街，讲述身处金融行业里的女性奋斗经历。",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img1.doubanio.com/icon/u13480455-8.jpg",
+                "should_show_profile": true,
+                "intro": "我的全部写作使命，在于鼓吹对传统的珍重，对异己的包容，对人世的信心……珍重，包容，爱，致力于写有深度的国际性苦情玛丽苏小黄文=_= （非常感谢编编和每一位留言的读者！！会努力填坑的！。。）",
+                "uid": "13480455",
+                "url": "/author/63694963",
+                "works_count": 10,
+                "is_agency": false,
+                "id": "63694963",
+                "name": "刘玥"
+            },
+            "table_of_contents": [
+                {
+                    "title": "金融街没有爱情"
+                }
+            ],
+            "is_gallery": false,
+            "title": "金融街没有爱情",
+            "reminded": false,
+            "average_rating": 4.1,
+            "is_on_pre": false,
+            "rating_cnt": 1655,
+            "onsale_time": "2016-10",
+            "publish_time": "2016-10",
+            "tags": [
+                {
+                    "tag": "爱情"
+                },
+                {
+                    "tag": "北京"
+                },
+                {
+                    "tag": "金融"
+                },
+                {
+                    "tag": "职业"
+                },
+                {
+                    "tag": "硅谷"
+                },
+                {
+                    "tag": "第四届征文大赛"
+                },
+                {
+                    "tag": "职业女性故事"
+                },
+                {
+                    "tag": "金融街"
+                }
+            ],
+            "price": 0,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>北京金融大街 7 号英蓝国际中心 18 层，是佳慧回北京后的上班地点。她从伦敦回北京做 TMT 并购，却发现挖自己回来的 MD 是个臭名昭著的年轻女人。她惯于逢场作戏，尤其懂得在企业高管跟前惺惺作态——于是在业内混得风生水起。当她把佳慧带去见客户陪酒的时候，佳慧甚至还有这样一种古怪的感觉：一个从业十数年的应召女郎，在教刚入行的小姑娘，如何取得阿尔法男人的芳心。</p></div><div class=\"info\"><p>《硅谷爱情故事》番外篇。95 后老板与 00 后下属在 2028 年完成的一桩 VR / AR 杠杆收购案。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 45,000 字",
+            "release_date": "",
+            "cover": "https://img3.doubanio.com/view/ark_article_cover/retina/public/24835374.jpg?v=1476429957.0",
+            "original_author": "刘玥",
+            "can_read": true,
+            "total_reviews": 682,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "北京金融大街 7 号英蓝国际中心 18 层，是佳慧回北京后的上班地点。她从伦敦回北京做 TMT 并购，却发现挖自己回来的 MD 是个臭名昭著的年轻女人。她惯于逢场作戏，尤其懂得在企业高管跟前惺惺作态——于是在业内混得风生水起。当她把佳慧带去见客户陪酒的时候，佳慧甚至还有这样一种古怪的感觉：一个从业十数年的应召女郎，在教刚入行的小姑娘，如何取得阿尔法男人的芳心。",
+                "《硅谷爱情故事》番外篇。95 后老板与 00 后下属在 2028 年完成的一桩 VR / AR 杠杆收购案。"
+            ]
+        },
+        {
+            "read_count": 98023,
+            "fixed_price": 199,
+            "subtitle": "大了特别忙",
+            "abstract": "第三届豆瓣阅读征文大赛·非虚构组·优秀奖",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u53022729-13.jpg",
+                "should_show_profile": true,
+                "intro": "一个喜欢阅读。喜欢观察。喜欢思考的人。\r\n《白事会》在亚马逊上开始预售。\r\n［https://book.douban.com/subject/26890235/］",
+                "uid": "53022729",
+                "url": "/author/63704212",
+                "works_count": 5,
+                "is_agency": false,
+                "id": "63704212",
+                "name": "自然"
+            },
+            "table_of_contents": [
+                {
+                    "title": "寿衣不能提前做"
+                },
+                {
+                    "title": "包子是谁吃的呢"
+                },
+                {
+                    "title": "给我每人两头牛"
+                },
+                {
+                    "title": "后备箱的铁锨"
+                },
+                {
+                    "title": "太平间的婚礼"
+                },
+                {
+                    "title": "刚死的人不能摔"
+                },
+                {
+                    "title": "雷雨天气养猫的注意了"
+                },
+                {
+                    "title": "屋子大有什么用"
+                },
+                {
+                    "title": "哭了看不清"
+                },
+                {
+                    "title": "大师也怕呛"
+                },
+                {
+                    "title": "一天之内"
+                },
+                {
+                    "title": "一个老党员的情操"
+                },
+                {
+                    "title": "斑马线"
+                },
+                {
+                    "title": "司机师傅都长点心吧"
+                },
+                {
+                    "title": "穿寿衣发个朋友圈"
+                },
+                {
+                    "title": "掰不开就在一起"
+                },
+                {
+                    "title": "美丽的姑娘"
+                },
+                {
+                    "title": "资深大了的一生"
+                }
+            ],
+            "is_gallery": false,
+            "title": "白事会",
+            "reminded": false,
+            "average_rating": 4.5,
+            "is_on_pre": false,
+            "rating_cnt": 4358,
+            "onsale_time": "2015-11",
+            "publish_time": "2015-11",
+            "tags": [
+                {
+                    "tag": "幽默"
+                },
+                {
+                    "tag": "文化"
+                },
+                {
+                    "tag": "温暖"
+                },
+                {
+                    "tag": "行业"
+                },
+                {
+                    "tag": "第三届征文大赛"
+                },
+                {
+                    "tag": "白事"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>大了，在天津准确的读音，了是三声。是天津人对婚丧嫁娶组织者的一个称呼，现在大了专指从事白事的组织者。</p><p>因为行业的特殊性，大了目睹了各类人群面对死亡的态度，作者更是用颇为黑色幽默的语言，讲诉了惊心动魄、感人至深、妙趣横生的白事故事，引发人对生与死的思考。</p><p>一个冷静的旁观者，却充满了最深切的关怀。</p></div><div class=\"info\"><p>这里所有的文字故事，你就当用眼睛看一场相声吧……</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "非虚构 / 中篇",
+            "round_word_count": "约 20,000 字",
+            "release_date": "",
+            "cover": "https://img5.doubanio.com/view/ark_article_cover/retina/public/14872096.jpg?v=1460714120.0",
+            "original_author": "自然",
+            "can_read": false,
+            "total_reviews": 2028,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "大了，在天津准确的读音，了是三声。是天津人对婚丧嫁娶组织者的一个称呼，现在大了专指从事白事的组织者。",
+                "因为行业的特殊性，大了目睹了各类人群面对死亡的态度，作者更是用颇为黑色幽默的语言，讲诉了惊心动魄、感人至深、妙趣横生的白事故事，引发人对生与死的思考。",
+                "一个冷静的旁观者，却充满了最深切的关怀。",
+                "这里所有的文字故事，你就当用眼睛看一场相声吧……"
+            ]
+        },
+        {
+            "read_count": 98848,
+            "fixed_price": 0,
+            "subtitle": "连环杀手寻子记",
+            "abstract": "集动作、悬疑、犯罪、亲情于一身，2015年豆瓣阅读最具口碑长篇小说。\r\n如果你要乘飞机或者火车进行一次长途旅行，建议你带上这本书，它会给你消遣。\r\n如果你痛恨残害妇女儿童的罪行，建议你带上这本书，它会给你宣泄。\r\n如果你想要一次惊心动魄的冒险，建议你带上这本书，它不会让你失望。",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u125314168-5.jpg",
+                "should_show_profile": true,
+                "intro": "故事让我平静\r\n微博 http://weibo.com/liangkestory",
+                "uid": "125314168",
+                "url": "/author/63700490",
+                "works_count": 4,
+                "is_agency": false,
+                "id": "63700490",
+                "name": "梁柯"
+            },
+            "table_of_contents": [
+                {
+                    "title": "楔子"
+                },
+                {
+                    "title": "第一章 西西里"
+                },
+                {
+                    "title": "第二章 碎尸"
+                },
+                {
+                    "title": "第三章 绑票"
+                },
+                {
+                    "title": "第四章 鬼医生"
+                },
+                {
+                    "title": "第五章 群魔"
+                }
+            ],
+            "is_gallery": false,
+            "title": "第十三天（上）",
+            "reminded": false,
+            "average_rating": 4.6,
+            "is_on_pre": false,
+            "rating_cnt": 2950,
+            "onsale_time": "2015-09",
+            "publish_time": "2015-09",
+            "tags": [
+                {
+                    "tag": "小说"
+                },
+                {
+                    "tag": "中篇小说"
+                },
+                {
+                    "tag": "悬疑"
+                },
+                {
+                    "tag": "亲情"
+                },
+                {
+                    "tag": "犯罪"
+                },
+                {
+                    "tag": "免费"
+                },
+                {
+                    "tag": "惊险"
+                }
+            ],
+            "price": 0,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>被判处终身监禁的连环杀手接到一封家书，说他的独生女儿失踪了。</p><p>他决定要逃出监狱，去告诉某些人：你们犯了这辈子最大的错误……</p><p>这意味着，他要逃出戒备森严的监狱，穿越世界上控制最为严格的边境，追踪、寻找、打垮所有挡在他面前的穷凶极恶、身份不明的罪犯……</p></div><div class=\"info\"><p>情节干净利落，追踪调查手段真实可信，故事走向出人意料，爆发酣畅淋漓。</p><p>如果你要乘飞机或者火车进行一次长途旅行，建议你带上这本书，它会给你消遣。</p><p>如果你痛恨残害妇女儿童的罪行，建议你带上这本书，它会给你宣泄。</p><p>如果你想要一次惊心动魄的冒险，建议你带上这本书，它不会让你失望。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 60,000 字",
+            "release_date": "",
+            "cover": "https://img3.doubanio.com/view/ark_article_cover/retina/public/12476855.jpg?v=1441093494.0",
+            "original_author": "〔德〕梁柯",
+            "can_read": true,
+            "total_reviews": 1060,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "被判处终身监禁的连环杀手接到一封家书，说他的独生女儿失踪了。",
+                "他决定要逃出监狱，去告诉某些人：你们犯了这辈子最大的错误……",
+                "这意味着，他要逃出戒备森严的监狱，穿越世界上控制最为严格的边境，追踪、寻找、打垮所有挡在他面前的穷凶极恶、身份不明的罪犯……"
+            ]
+        },
+        {
+            "read_count": 49457,
+            "fixed_price": 199,
+            "subtitle": "",
+            "abstract": "第三届豆瓣阅读征文大赛·科幻组·首奖",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u38316950-2.jpg",
+                "should_show_profile": true,
+                "intro": "一个热爱写小说的人",
+                "uid": "38316950",
+                "url": "/author/63698530",
+                "works_count": 2,
+                "is_agency": false,
+                "id": "63698530",
+                "name": "翼走"
+            },
+            "table_of_contents": [
+                {
+                    "title": "一"
+                },
+                {
+                    "title": "二"
+                },
+                {
+                    "title": "三"
+                },
+                {
+                    "title": "四"
+                }
+            ],
+            "is_gallery": false,
+            "title": "追逐太阳的男人",
+            "reminded": false,
+            "average_rating": 4.5,
+            "is_on_pre": false,
+            "rating_cnt": 1560,
+            "onsale_time": "2015-11",
+            "publish_time": "2015-11",
+            "tags": [
+                {
+                    "tag": "小说"
+                },
+                {
+                    "tag": "科幻"
+                },
+                {
+                    "tag": "中篇小说"
+                },
+                {
+                    "tag": "第三届征文大赛"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>在一个濒临崩溃的星球上，人类被分为日夜两个世界。一个只能在夜晚活动的人，收到了一封来自白昼的信，开始了追逐太阳的一生。</p></div><div class=\"info\"><p>当人类被分为泾渭分明的日夜两个世界，共同奔向必将毁灭的未来。究竟有什么能够打破不可突破的时间之壁，拯救这个被遗弃的世界。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 29,000 字",
+            "release_date": "",
+            "cover": "https://img3.doubanio.com/view/ark_article_cover/retina/public/14371720.jpg?v=1460715061.0",
+            "original_author": "翼走",
+            "can_read": false,
+            "total_reviews": 864,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "由于资源短缺，人类世界采取不同作息时间分配制度。按照个人所产生的价值不同，每个人醒来的时间长短不一，因此有了8小时人、5小时人这样的等级设置。在学校，分配在夜晚12小时的男主，与分配在白昼12小时的女主，由于使用同一张桌子，而通过留纸条的方式互相认识了。",
+                "她们共同认为拂晓那刻才是一天中最美丽的时光，可那一刻又恰巧是夜晚与白天的分隔，男主总是没法看到拂晓，因为拂晓在他被强行休眠之后几分钟才会出现。从学校毕业开始工作后，醒着的时间以8小时为起点，男主拼命努力工作，以获得更多的可以醒着的时间。同时，女主则因为一些工作上的差错导致时间越来越少，眼看即将失去生存的权利。",
+                "男主将会采取什么措施拯救女主？他们共同的梦想会否实现？世界的规则是否如此直白明了？",
+                "故事中，作者将人的活动时间当做资源，按照计划经济做了规划。这种设定新颖有趣，并且合理易懂，读者接受起来没有门槛。男女主之间的情感的处理比较成熟，故事的翻转合情合理，但出人意料。"
+            ]
+        },
+        {
+            "read_count": 56215,
+            "fixed_price": 199,
+            "subtitle": "",
+            "abstract": "第三届豆瓣阅读征文大赛·悬疑组·首奖。\r\n这是一个集合了校园、励志、成长、青春、爱情、犯罪等多方面元素的故事，元素之间的组成恰如其分。\r\n故事关注社会、校园等因素的对学生的影响，将被学校的弱势学生心理表达得细致、深刻。枪械等知识的引入，让故事多了一重可读性。",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u125314168-5.jpg",
+                "should_show_profile": true,
+                "intro": "故事让我平静\r\n微博 http://weibo.com/liangkestory",
+                "uid": "125314168",
+                "url": "/author/63700490",
+                "works_count": 4,
+                "is_agency": false,
+                "id": "63700490",
+                "name": "梁柯"
+            },
+            "table_of_contents": [
+                {
+                    "title": "校园枪击案策划指南"
+                }
+            ],
+            "is_gallery": false,
+            "title": "校园枪击案策划指南",
+            "reminded": false,
+            "average_rating": 4.3,
+            "is_on_pre": false,
+            "rating_cnt": 2583,
+            "onsale_time": "2015-10",
+            "publish_time": "2015-10",
+            "tags": [
+                {
+                    "tag": "爱情"
+                },
+                {
+                    "tag": "青春"
+                },
+                {
+                    "tag": "悬疑"
+                },
+                {
+                    "tag": "校园"
+                },
+                {
+                    "tag": "犯罪"
+                },
+                {
+                    "tag": "第三届征文大赛"
+                },
+                {
+                    "tag": "欺凌"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>故事发生在未来。</p><p>一个饱受同学孤立、欺凌的高二学生忍耐到达了极限。</p><p>他带着枪来到学校，决心报仇血恨，然后自杀。</p><p>为了这个目标，他已经默默筹备了几个月。</p><p>就在他即将开枪的那一刻……</p></div><div class=\"info\"><p>这是一个关于毁灭和救赎的故事。</p><p>一个灵魂被慢斯条理地摧毁。</p><p>一出悲剧按部就班地上演。</p><p>大幕拉开，一切失控。</p><p></p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 37,000 字",
+            "release_date": "",
+            "cover": "https://img3.doubanio.com/view/ark_article_cover/retina/public/12627400.jpg?v=1460714968.0",
+            "original_author": "〔德〕梁柯",
+            "can_read": false,
+            "total_reviews": 1341,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "一个高中生，来自一个残缺破碎的家庭，因为矮小和口吃而饱受同学孤立和欺辱，老师也看不上他。当他发现自己一直暗恋的“女神”与平日里经常欺负自己的混蛋出双入对时，在愤怒之下他决心向曾经羞辱他的同学、蔑视他的老师报仇——选择一个吉日，带上一把枪，一一干掉他们。",
+                "为了这个目的，他做了许多准备工作，故事就此开始：",
+                "首先，为了保证复仇的成功率，他列出了详尽周密的可行方案，并严格按照计划做准备，考察校园地形、制定进攻路线；",
+                "其次，为了更好的使用枪械，他必须坚持健身锻炼增强肌肉力量，了解足够的枪械知识，并勤奋地练习射击技巧；",
+                "第三，他需要能买到枪，由于事情必须秘密准备，他只能默默打工挣钱。",
+                "经过几个月辛苦准备，他自己也没有注意到身上起了一些变化：因为长期的锻炼和思考，他的身型和外貌都有了巨大改观。现在的他可以一口气跑五英里，做一百个俯卧撑，深蹲90公斤十五次。他精通化学、电子、射击、地图作业，可以在黑暗中击中移动靶，可以六十秒把一只格洛克手枪拆装三回。",
+                "万事俱备，他带好枪迎来改变他整个人生的这一天。"
+            ]
+        },
+        {
+            "read_count": 13030,
+            "fixed_price": 199,
+            "subtitle": "一则关于拔除旧爱的黑色事件",
+            "abstract": "第二届豆瓣阅读征文大赛小说组入围作品",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u1887071-80.jpg",
+                "should_show_profile": true,
+                "intro": "生于盂兰盆节，多少沾点鬼气，不好人间流俗，终入迷途不愿返。",
+                "uid": "1887071",
+                "url": "/author/63688484",
+                "works_count": 2,
+                "is_agency": false,
+                "id": "63688484",
+                "name": "王王王"
+            },
+            "table_of_contents": [
+                {
+                    "title": "斯德哥尔摩情法"
+                }
+            ],
+            "is_gallery": false,
+            "title": "斯德哥尔摩情法",
+            "reminded": false,
+            "average_rating": 3.6,
+            "is_on_pre": false,
+            "rating_cnt": 140,
+            "onsale_time": "2015-01",
+            "publish_time": "2015-01",
+            "tags": [
+                {
+                    "tag": "小说"
+                },
+                {
+                    "tag": "中篇小说"
+                },
+                {
+                    "tag": "爱情"
+                },
+                {
+                    "tag": "讲个好故事"
+                },
+                {
+                    "tag": "第二届征文大赛"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>一个被称作“活死人”的四十岁中年男子陈廖，因为对前女友念念不忘，孤独地度过了十年病态的单身生活。为了走出这暗无天日的日子，陈廖雇了晁天娇这个大三留级女生，让她想尽办法使自己爱上她。而从未谈过恋爱的晁天娇，纵然使出浑身解数，却始终打动不了陈廖的心，竟然把陈廖前女友留下的东西全部扔掉了。陈廖在盛怒之下，把晁天娇骂走了，晁天娇也同样受够了这个“神经病”。然而此时的陈廖却再也忍受不了孤独，下重金又把晁天娇找了回来。晁天娇为了尽快了结此事，胡乱搞出三种异想天开的方法，其中之一，便是“斯德哥尔摩综合征”的反用法。哪知这一招却如一潭深沼，让灵晁天娇越陷越深，竟然把自己献身给了陈廖。为了将这段经历忘记，晁天娇远走高飞去了南方，却在三年后的婚礼当天，穿着婚纱仓皇逃回了北方，她去找陈廖，却发现陈廖已经不知所踪了。此时她才明白，她已经变成另一个陈廖了。她决定用最危险的那个方法，彻底摆脱陈廖的阴影……</p></div><div class=\"info\"><p>一个是旧爱难忘、独守十年空房的变态大叔，一个是从未恋爱、活得特立独行的女大学生。假如这两种人之间真能发生什么故事，那一定会是这篇小说里的样子。它反矫情、反烂俗、反腻歪、反狗血，它独有一种黑色调的浪漫气质，颇用了点儿想象力。它同时也是一次对爱情的深度探索，向你展示了“如何忘掉前男/女友”的几种全新方法，但有一点要特别严重警告：文中男女主人公均经过特殊训练，请勿轻易模仿。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 22,000 字",
+            "release_date": "",
+            "cover": "https://img1.doubanio.com/view/ark_article_cover/retina/public/7102459.jpg?v=1421375454.0",
+            "original_author": "王王王",
+            "can_read": false,
+            "total_reviews": 79,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "一个被称作“活死人”的四十岁中年男子陈廖，因为对前女友念念不忘，孤独地度过了十年病态的单身生活。为了走出这暗无天日的日子，陈廖雇了晁天娇这个大三留级女生，让她想尽办法使自己爱上她。而从未谈过恋爱的晁天娇，纵然使出浑身解数，却始终打动不了陈廖的心，竟然把陈廖前女友留下的东西全部扔掉了。陈廖在盛怒之下，把晁天娇骂走了，晁天娇也同样受够了这个“神经病”。然而此时的陈廖却再也忍受不了孤独，下重金又把晁天娇找了回来。晁天娇为了尽快了结此事，胡乱搞出三种异想天开的方法，其中之一，便是“斯德哥尔摩综合征”的反用法。哪知这一招却如一潭深沼，让灵晁天娇越陷越深，竟然把自己献身给了陈廖。为了将这段经历忘记，晁天娇远走高飞去了南方，却在三年后的婚礼当天，穿着婚纱仓皇逃回了北方，她去找陈廖，却发现陈廖已经不知所踪了。此时她才明白，她已经变成另一个陈廖了。她决定用最危险的那个方法，彻底摆脱陈廖的阴影……",
+                "一个是旧爱难忘、独守十年空房的变态大叔，一个是从未恋爱、活得特立独行的女大学生。假如这两种人之间真能发生什么故事，那一定会是这篇小说里的样子。它反矫情、反烂俗、反腻歪、反狗血，它独有一种黑色调的浪漫气质，颇用了点儿想象力。它同时也是一次对爱情的深度探索，向你展示了“如何忘掉前男/女友”的几种全新方法，但有一点要特别严重警告：文中男女主人公均经过特殊训练，请勿轻易模仿。"
+            ]
+        },
+        {
+            "read_count": 22671,
+            "fixed_price": 199,
+            "subtitle": "",
+            "abstract": "第二届豆瓣阅读征文大赛小说组优秀奖",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u1783224-14.jpg",
+                "should_show_profile": true,
+                "intro": "以严肃著称。",
+                "uid": "1783224",
+                "url": "/author/1783224",
+                "works_count": 5,
+                "is_agency": false,
+                "id": "1783224",
+                "name": "方悄悄"
+            },
+            "table_of_contents": [
+                {
+                    "title": "再见！谢谢你们的鱼"
+                }
+            ],
+            "is_gallery": false,
+            "title": "再见！谢谢你们的鱼",
+            "reminded": false,
+            "average_rating": 4,
+            "is_on_pre": false,
+            "rating_cnt": 825,
+            "onsale_time": "2014-12",
+            "publish_time": "2014-12",
+            "tags": [
+                {
+                    "tag": "小说"
+                },
+                {
+                    "tag": "中篇小说"
+                },
+                {
+                    "tag": "爱情"
+                },
+                {
+                    "tag": "都市"
+                },
+                {
+                    "tag": "讲个好故事"
+                },
+                {
+                    "tag": "第二届征文大赛"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>性格存在一定问题的985大学的研究生林佳美，毕业以后找不到工作，在中学同学（一名公务员）的帮助下，进了一家水族馆做起了企鹅饲养员。在水族馆工作期间，林佳美与美人鱼结下了友谊，也和企鹅们建立了互相信任的关系。能被信任和依赖的感觉真是让人安心啊，但在真实的生活中，建立这样的关系谈何容易！林佳美会一辈子呆在水族馆吗？她的中学同学、她的新同事、她的意想不到的爱情、她和企鹅们的友情，都将走向何方？</p></div><div class=\"info\"><p>这是一篇充满了夏日气息的小说。整篇小说的目的，可能只是为了唤醒一个夏日之吻，以及对生命中起到决定性意义的夏天的回忆。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 24,000 字",
+            "release_date": "",
+            "cover": "https://img1.doubanio.com/view/ark_article_cover/retina/public/7401247.jpg?v=1419215036.0",
+            "original_author": "方悄悄",
+            "can_read": false,
+            "total_reviews": 493,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "性格存在一定问题的985大学的研究生林佳美，毕业以后找不到工作，在中学同学（一名公务员）的帮助下，进了一家水族馆做起了企鹅饲养员。在水族馆工作期间，林佳美与美人鱼结下了友谊，也和企鹅们建立了互相信任的关系。能被信任和依赖的感觉真是让人安心啊，但在真实的生活中，建立这样的关系谈何容易！林佳美会一辈子呆在水族馆吗？她的中学同学、她的新同事、她的意想不到的爱情、她和企鹅们的友情，都将走向何方？",
+                "这是一篇充满了夏日气息的小说。整篇小说的目的，可能只是为了唤醒一个夏日之吻，以及对生命中起到决定性意义的夏天的回忆。"
+            ]
+        },
+        {
+            "read_count": 52508,
+            "fixed_price": 199,
+            "subtitle": "",
+            "abstract": "第二届豆瓣阅读征文大赛小说组首奖",
+            "on_sale_in_current_store": true,
+            "agent": {
+                "picture": "https://img3.doubanio.com/icon/u1216758-154.jpg",
+                "should_show_profile": true,
+                "intro": "你能让稻草变黄金。",
+                "uid": "1216758",
+                "url": "/author/1216758",
+                "works_count": 2,
+                "is_agency": false,
+                "id": "1216758",
+                "name": "大头马"
+            },
+            "table_of_contents": [
+                {
+                    "title": "谋杀电视机"
+                }
+            ],
+            "is_gallery": false,
+            "title": "谋杀电视机",
+            "reminded": false,
+            "average_rating": 4.1,
+            "is_on_pre": false,
+            "rating_cnt": 1332,
+            "onsale_time": "2014-12",
+            "publish_time": "2014-12",
+            "tags": [
+                {
+                    "tag": "小说"
+                },
+                {
+                    "tag": "中篇小说"
+                },
+                {
+                    "tag": "都市"
+                },
+                {
+                    "tag": "推理"
+                },
+                {
+                    "tag": "荒诞"
+                },
+                {
+                    "tag": "娱乐"
+                },
+                {
+                    "tag": "讲个好故事"
+                },
+                {
+                    "tag": "第二届征文大赛"
+                }
+            ],
+            "price": 199,
+            "agent_works_relationship": "作者",
+            "abstract_html": "<div class=\"info\"><p>第二届豆瓣阅读征文大赛小说组首奖作品</p><p></p><p>“除了破坏他们什么也没干，除了电视他们什么也没砸”——倾尽积蓄的我为爱看电视的女友买来一台全新智能电视，却毁于三个神秘闯入的男人之手，而目睹一切的我将这一事实说出时，却无人愿意相信。 </p><p>究竟是谁做的？为什么要这么做？在搞清楚这一切之前，无奈而愤慨的我，独自踏上了索赔之路，却不知道有一场狂欢式的结局等待着我……</p></div><div class=\"info\"><p>作品以一个专门捣毁电视机的团伙为线索，讲述了一个反对主流娱乐文化的小人物的传奇经历。行文流畅，构思精巧，在俏皮的黑色幽默叙事风格下，传达出作者对媒体文化的深刻思考。</p></div>",
+            "translator": "",
+            "readable_package_size": "",
+            "gallery_page_count": "",
+            "publisher": "豆瓣阅读",
+            "kind": "虚构 / 中篇",
+            "round_word_count": "约 37,000 字",
+            "release_date": "",
+            "cover": "https://img1.doubanio.com/view/ark_article_cover/retina/public/7436619.jpg?v=1419217338.0",
+            "original_author": "大头马",
+            "can_read": false,
+            "total_reviews": 847,
+            "promotion": false,
+            "catoge": "true",
+            "brief_Introduction_html": [
+                "第二届豆瓣阅读征文大赛小说组首奖作品",
+                "“除了破坏他们什么也没干，除了电视他们什么也没砸”——倾尽积蓄的我为爱看电视的女友买来一台全新智能电视，却毁于三个神秘闯入的男人之手，而目睹一切的我将这一事实说出时，却无人愿意相信。",
+                "究竟是谁做的？为什么要这么做？在搞清楚这一切之前，无奈而愤慨的我，独自踏上了索赔之路，却不知道有一场狂欢式的结局等待着我…… ",
+                "作品以一个专门捣毁电视机的团伙为线索，讲述了一个反对主流娱乐文化的小人物的传奇经历。行文流畅，构思精巧，在俏皮的黑色幽默叙事风格下，传达出作者对媒体文化的深刻思考。"
+            ]
+        }
+    ]
+}
